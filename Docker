@@ -1,0 +1,15 @@
+To install and configure Docker. Steps:
+
+1) Open the terminal in Ubuntu.
+2) Update the package. sudo apt update
+
+3) Install docker in Ubuntu. sudo apt install -y docker.io
+4) Start the docker service. sudo systemctl enable
+
+--now docker
+
+5) Configure docker give privileges to users with Docker. sudo usermod -aG docker $USER 
+6) Check the docker version to confirm installation.
+
+docker --version
+
